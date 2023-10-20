@@ -139,7 +139,7 @@ public class VentanaCalculadora extends JFrame {
                 cadenaNumeros += "3";
             }
             lblresultado.setText(cadenaNumeros);
-            activado = true;
+            activado = true ;
 
         });
         a0Button.addActionListener(e -> {
