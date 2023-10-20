@@ -269,9 +269,9 @@ public class VentanaCalculadora extends JFrame {
             punto = true;
         });
         btnborrar.addActionListener(e -> {
-            int tamaño = cadenaNumeros.length();
-            if (tamaño > 0) {
-                if (tamaño == 1) {
+            int tamanno = cadenaNumeros.length();
+            if (tamanno > 0) {
+                if (tamanno == 1) {
                     cadenaNumeros = "0";
                 } else {
                     cadenaNumeros = cadenaNumeros.substring(0, cadenaNumeros.length() - 1);
