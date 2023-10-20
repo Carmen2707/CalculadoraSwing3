@@ -189,7 +189,7 @@ public class VentanaCalculadora extends JFrame {
             } else if (operacion.equals("dividir")) {
                 num2 = Double.parseDouble(cadenaNumeros);
                 if (num2 == 0) {
-                    lblresultado.setText("No se puede dividir por 0");
+                    lblresultado.setText("NoSePuedeDividirPor0");
                 } else {
                     resultado = num1 / num2;
                     lblresultado.setText(String.format("% .2f", resultado));
