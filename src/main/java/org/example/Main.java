@@ -5,7 +5,7 @@ import ui.VentanaCalculadora;
 
 public class Main {
     public static void main(String[] args) {
-        VentanaCalculadora ventanaCalculadora=new VentanaCalculadora();
+        VentanaCalculadora ventanaCalculadora = new VentanaCalculadora();
         ventanaCalculadora.load();
 
     }
